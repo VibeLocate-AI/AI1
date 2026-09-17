@@ -16,3 +16,6 @@ app.include_router(property_search.router)
 @app.get("/health")
 def health():
     return {"status": "ok"}
+from app.routers import property_vibe  # ضيف هالاستيراد
+
+app.include_router(property_vibe.router)  # ضيف هالسطر بعد باقي include_router

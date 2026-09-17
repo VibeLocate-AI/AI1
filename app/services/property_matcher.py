@@ -1,110 +1,66 @@
 """
-Connects to the live Laravel backend to fetch real properties and match
-them against the AI-parsed search criteria.
+Connects to real property data and matches it against AI-parsed search
+criteria.
 
-IMPORTANT — CURRENT LIMITATION (read before changing this file):
-No dedicated search/filter endpoint has been confirmed with the backend
-team yet — only GET /api/home, which returns all properties.
+TEMPORARY DATA SOURCE SWITCH (read this before touching fetch logic):
+/api/home was confirmed (via diagnostic logging) to return only ~12
+"featured" properties out of the real 708 in the database — it's a
+homepage endpoint, not a full catalog endpoint. Until the backend team
+confirms a dedicated full-listing/search endpoint, this file reads
+ALL properties from a local JSON snapshot (data/all_properties.json)
+extracted directly from the backend team's own database_final.sql dump
+instead of calling /api/home.
 
-The exact JSON wrapper shape of /api/home has proven to be nested more
-than one level deep (confirmed top-level keys: {"success", "data"}, but
-`data` itself is not a bare list — it's wrapped further, e.g. Laravel's
-default pagination shape {"data": [...], "links": ..., "meta": ...} or
-a resource-collection wrapper). Rather than keep guessing key names one
-level at a time, _find_property_list() below searches the JSON tree
-(up to a few levels deep) for the first list of dicts that "looks like"
-property records (has recognizable fields such as type_id/price/id),
-and uses that — making this resilient to wrapper changes without
-needing another round of manual inspection.
-
-Once the backend confirms a real filter endpoint, replace this whole
-client-side-filtering approach with a direct call.
+TO SWITCH BACK to a live backend call once a real endpoint exists:
+replace the body of fetch_all_properties() with an httpx.get() call
+(see git history / earlier version of this file for the HTTP-based
+implementation) — match_properties() and everything else below is
+unaffected by where the data comes from.
 """
 
+import json
 import logging
+from pathlib import Path
 
-import httpx
-
-from app.config import settings
 from app.schemas import ParsedCriteria
 
 logger = logging.getLogger("vibelocate.property_matcher")
 
-# Fields we'd expect at least one of on a real property record. Used to
-# distinguish "this is the properties list" from other lists that might
-# appear in the payload (e.g. a list of filter options, categories...).
-_PROPERTY_LIKE_FIELDS = {"type_id", "price", "bedrooms", "features", "id"}
+_LOCAL_PROPERTIES_PATH = Path(__file__).resolve().parents[2] / "data" / "all_properties.json"
 
 
 class BackendUnavailableError(Exception):
-    """Raised when the Laravel backend can't be reached or returns an error."""
-
-
-def _looks_like_property_list(value) -> bool:
-    if not isinstance(value, list) or not value:
-        return False
-    first = value[0]
-    return isinstance(first, dict) and bool(_PROPERTY_LIKE_FIELDS & first.keys())
-
-
-def _find_property_list(node, max_depth: int = 4, _depth: int = 0):
-    """Recursively searches dicts/lists for the first list that looks
-    like a list of property records. Returns None if nothing matches."""
-    if _depth > max_depth:
-        return None
-
-    if _looks_like_property_list(node):
-        return node
-
-    if isinstance(node, dict):
-        for value in node.values():
-            found = _find_property_list(value, max_depth, _depth + 1)
-            if found is not None:
-                return found
-
-    elif isinstance(node, list):
-        for item in node:
-            found = _find_property_list(item, max_depth, _depth + 1)
-            if found is not None:
-                return found
-
-    return None
+    """Raised when property data can't be loaded (kept for API compatibility
+    with the live-backend version of this function)."""
 
 
 def fetch_all_properties() -> list[dict]:
     """
-    Calls the confirmed-working GET /api/home endpoint and locates the
-    actual properties list inside whatever wrapper shape it's using.
+    TEMPORARY: reads the full local snapshot (706 properties, extracted
+    from database_final.sql) instead of calling /api/home live — see
+    module docstring.
     """
-    url = f"{settings.laravel_base_url}/api/home"
+    if not _LOCAL_PROPERTIES_PATH.exists():
+        raise BackendUnavailableError(
+            f"Local properties snapshot not found at {_LOCAL_PROPERTIES_PATH}. "
+            f"Make sure data/all_properties.json was extracted from database_final.sql."
+        )
+
     try:
-        response = httpx.get(url, timeout=settings.laravel_timeout_seconds)
-        response.raise_for_status()
-        data = response.json()
-    except httpx.HTTPError as exc:
-        logger.error("Failed to fetch properties from backend: %s", exc)
+        properties = json.loads(_LOCAL_PROPERTIES_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.error("Failed to load local properties snapshot: %s", exc)
         raise BackendUnavailableError(str(exc)) from exc
 
-    properties = _find_property_list(data)
-    if properties is not None:
-        return properties
-
-    # Nothing property-like found anywhere in the payload — log the
-    # top-level shape so we have something concrete to inspect manually.
-    shape_hint = list(data.keys()) if isinstance(data, dict) else type(data)
-    logger.error("Could not locate a properties list anywhere in /api/home response. "
-                 "Top-level shape: %s", shape_hint)
-    raise BackendUnavailableError("Could not locate properties list in /api/home response")
+    logger.info("fetch_all_properties(): loaded %d properties from local snapshot", len(properties))
+    return properties
 
 
-def _feature_names(features_field) -> set[str]:
-    names = set()
-    for f in features_field or []:
-        if isinstance(f, str):
-            names.add(f)
-        elif isinstance(f, dict) and "name" in f:
-            names.add(f["name"])
-    return names
+def _text_matches(needle: str, haystack) -> bool:
+    """Case-insensitive substring match; tolerant of None/non-string fields."""
+    if not haystack:
+        return False
+    return needle.strip().lower() in str(haystack).strip().lower()
 
 
 def match_properties(
@@ -112,11 +68,28 @@ def match_properties(
     properties: list[dict],
     limit: int = 10,
 ) -> list[dict]:
+    """
+    Matching logic for the new schema (database_final.sql) — no numeric
+    type_id, no amenities table. See schemas.py's module docstring for
+    the full schema history.
+
+    - property_type: case-insensitive exact match against
+      property_type_en (or property_type_ar).
+    - max_budget: price <= max_budget.
+    - min_bedrooms: bedrooms >= min_bedrooms.
+    - location_hint: loose substring match against community_en,
+      neighborhood_en, or city_en (and their _ar equivalents).
+    - required_amenities: NOT enforced — no amenities data exists in
+      this schema.
+    """
     results = []
 
     for prop in properties:
-        if criteria.property_type_id is not None:
-            if prop.get("type_id") != criteria.property_type_id:
+        if criteria.property_type:
+            type_en = prop.get("property_type_en", "")
+            type_ar = prop.get("property_type_ar", "")
+            if not (_text_matches(criteria.property_type, type_en)
+                    or _text_matches(criteria.property_type, type_ar)):
                 continue
 
         if criteria.max_budget is not None:
@@ -132,9 +105,13 @@ def match_properties(
             if isinstance(bedrooms, (int, float)) and bedrooms < criteria.min_bedrooms:
                 continue
 
-        if criteria.required_amenities:
-            prop_features = _feature_names(prop.get("features"))
-            if not set(criteria.required_amenities).issubset(prop_features):
+        if criteria.location_hint:
+            location_fields = [
+                prop.get("community_en"), prop.get("neighborhood_en"),
+                prop.get("city_en"), prop.get("community_ar"),
+                prop.get("neighborhood_ar"), prop.get("city_ar"),
+            ]
+            if not any(_text_matches(criteria.location_hint, f) for f in location_fields):
                 continue
 
         results.append(prop)
