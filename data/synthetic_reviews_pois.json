@@ -1706,5 +1706,3351 @@
     "text": "مناسب للعائلات، والعروض على الكميات الكبيرة توفر فلوس.",
     "language": "ar",
     "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Vapiano",
+    "category": "amenities",
+    "text": "Fresh pasta made right in front of you — great for a quick lunch that doesn't feel like fast food.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Vapiano",
+    "category": "amenities",
+    "text": "الخدمة سريعة والأسعار معقولة، لكن المكان يزدحم جداً وقت الغداء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bake Mart Plus",
+    "category": "amenities",
+    "text": "Solid neighborhood bakery — their zaatar croissants are a weekend staple for us.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bake Mart Plus",
+    "category": "amenities",
+    "text": "مخبز ممتاز وخيارات متنوعة، لكن الكاشير أحياناً بطيء في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choitram's (Greens Village)",
+    "category": "amenities",
+    "text": "Convenient for daily groceries and they stock a surprising range of international snacks.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choitram's (Greens Village)",
+    "category": "amenities",
+    "text": "السوبرماركت قريب من البيت ويوفر كل الأساسيات، لكن قسم الخضار يحتاج تحسين.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Caribou",
+    "category": "amenities",
+    "text": "Consistently good coffee and a quiet corner to work — my go-to for morning emails.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Caribou",
+    "category": "amenities",
+    "text": "قهوة لذيذة وأجواء مريحة، بس الأسعار أعلى شوية من المقاهي الثانية في المنطقة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Park View",
+    "category": "amenities",
+    "text": "Handy spot for grabbing household essentials without driving to a big mall.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Park View",
+    "category": "amenities",
+    "text": "محل مناسب للاحتياجات اليومية والسعر معقول، لكن التنوع محدود في بعض الأصناف.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Anjappar",
+    "category": "amenities",
+    "text": "Great South Indian dosas and the filter coffee hits the spot every time.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Anjappar",
+    "category": "amenities",
+    "text": "الطعام لذيذ والخدمة سريعة، لكن المكان يزدحم جداً في أوقات الغداء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Chow King",
+    "category": "amenities",
+    "text": "Decent Filipino fast food — the halo-halo is solid after a long day.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Chow King",
+    "category": "amenities",
+    "text": "نكهات مألوفة وأسعار معقولة، لكن الجودة تختلف أحياناً بين الفروع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Life Pharmacy",
+    "category": "amenities",
+    "text": "Well-stocked and the pharmacists actually take time to explain things.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Life Pharmacy",
+    "category": "amenities",
+    "text": "مفتوح لوقت متأخر وهذا مريح، لكن بعض الأصناف تنفد بسرعة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ahl Almandi",
+    "category": "amenities",
+    "text": "The mandi rice is fragrant and the meat falls off the bone — solid family dinner spot.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ahl Almandi",
+    "category": "amenities",
+    "text": "الأرز ممتاز واللحم طري، بس الخدمة بطيئة قليلاً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Panoor",
+    "category": "amenities",
+    "text": "Authentic Kerala flavors — the fish curry and appam combo is a must-try.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Panoor",
+    "category": "amenities",
+    "text": "أكل كيرالي أصيل وطعمه يذكرني بالبيت، الأسعار معقولة جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ardh Al Naseem Pharmacy",
+    "category": "amenities",
+    "text": "Well-stocked and the pharmacist takes time to explain dosages — rare these days.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ardh Al Naseem Pharmacy",
+    "category": "amenities",
+    "text": "مفتوح لوقت متأخر والأسعار معقولة، بس أحياناً الزحمة تخليك تستنى شوية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Grand Buffet",
+    "category": "amenities",
+    "text": "Good variety for the price, though the grilled section gets cold by 8 PM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Grand Buffet",
+    "category": "amenities",
+    "text": "الأكل متنوع وطازج، بس الخدمة بطيئة شوية في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Chill Out Lounge",
+    "category": "quietness_negative",
+    "text": "Music's loud after 10 — fine if you're there for the vibe, not conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Chill Out Lounge",
+    "category": "quietness_negative",
+    "text": "المكان حلو والجلسات مريحة، بس الصوت عالي جداً بعد منتصف الليل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mai Bar",
+    "category": "quietness_negative",
+    "text": "Great cocktails but the bass shakes the tables on weekends — bring earplugs.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mai Bar",
+    "category": "quietness_negative",
+    "text": "كوكتيلات ممتازة والأجواء حلوة، بس الضجيج مزعج شوية للمنطقة السكنية جنبها.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Embassy",
+    "category": "quietness_negative",
+    "text": "Upscale crowd and solid drinks, though the door policy feels inconsistent.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Embassy",
+    "category": "quietness_negative",
+    "text": "البار فاخر والمشروبات عالية الجودة، بس الصوت عالي جداً في الوיקند.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Society",
+    "category": "quietness_negative",
+    "text": "Great vibe and music, but the bass shakes the walls until 3 AM — tough if you live nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Society",
+    "category": "quietness_negative",
+    "text": "الموسيقى عالية جداً بعد منتصف الليل، صعب النوم في الشقق المجاورة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NEOS",
+    "category": "quietness_negative",
+    "text": "Rooftop views are amazing, though the crowd gets rowdy late night and sound carries far.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NEOS",
+    "category": "quietness_negative",
+    "text": "الإطلالة رائعة لكن الضجيج بعد الساعة 12 يصعب تحمله للسكان.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Pool Bar & Lounge",
+    "category": "quietness_negative",
+    "text": "Chill during the day, but the DJ sets get loud after 11 PM — you'll hear it two blocks over.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Pool Bar & Lounge",
+    "category": "quietness_negative",
+    "text": "هادئ بالنهار، لكن الصوت يرتفع جداً ليلاً ويصل للشوارع الجانبية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Edge Pool & Bar",
+    "category": "quietness_negative",
+    "text": "Nice poolside atmosphere, but weekend parties run late with heavy bass that echoes.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Edge Pool & Bar",
+    "category": "quietness_negative",
+    "text": "الأجواء حلوة لكن حفلات نهاية الأسبوع تستمر لوقت متأخر والباس قوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bollywood Café",
+    "category": "quietness_negative",
+    "text": "Fun Bollywood nights, though the speakers blast until early morning — not ideal for light sleepers.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bollywood Café",
+    "category": "quietness_negative",
+    "text": "ليالي بوليوود ممتعة لكن السماعات تشتغل لوقت متأخر وصعبة على من ينام بدري.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Asics",
+    "category": "quietness_negative",
+    "text": "The music is loud but the soundproofing keeps it from spilling onto the street.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Asics",
+    "category": "quietness_negative",
+    "text": "الصوت عالي أحياناً، لكن الجو العام ممتع ولا يزعج الجيران.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Underground",
+    "category": "quietness_negative",
+    "text": "Bass shakes the walls late at night; it's hard to sleep nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Underground",
+    "category": "quietness_negative",
+    "text": "الأجواء حماسية والموسيقى قوية، مثالية للسهر مع الأصدقاء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Level 43 Sky Lounge Bar & Resto",
+    "category": "quietness_negative",
+    "text": "Great view and decent volume control, though weekends get rowdy.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Level 43 Sky Lounge Bar & Resto",
+    "category": "quietness_negative",
+    "text": "الإطلالة رائعة والصوت معتدل معظم الوقت، ما عدا ليالي الجمعة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ratsky",
+    "category": "quietness_negative",
+    "text": "Constant thumping music makes conversation impossible after 10 pm.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ratsky",
+    "category": "quietness_negative",
+    "text": "الموسيقى عالية لكن يمكن تحملها إذا كنت تبحث عن طاقة عالية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kitakits Kafe & Klubb",
+    "category": "quietness_negative",
+    "text": "Chill vibe with manageable noise; perfect for a relaxed night out.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kitakits Kafe & Klubb",
+    "category": "quietness_negative",
+    "text": "الضجيج مزعج جداً في الليالي المزدحمة، يصعب الاسترخاء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "W. Wilson Specialized Hospital",
+    "category": "safety",
+    "text": "The staff at W. Wilson are professional and the facility feels very clean and secure. I always feel reassured bringing my family here.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "W. Wilson Specialized Hospital",
+    "category": "safety",
+    "text": "المستشفى نظيف والطاقم متعاون، لكن وقت الانتظار في الطوارئ طويل أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lamasat Medical Centre",
+    "category": "safety",
+    "text": "مركز لامسات يعطي شعوراً بالأمان والنظافة عالية، والأطباء مهتمون بالتفاصيل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lamasat Medical Centre",
+    "category": "safety",
+    "text": "Lamasat is well-maintained and the nurses are kind, though parking can be a hassle during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Farah Specialist Medical Centre",
+    "category": "safety",
+    "text": "Farah Specialist feels safe and modern; the reception team is efficient and the exam rooms are spotless.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Farah Specialist Medical Centre",
+    "category": "safety",
+    "text": "العيادة نظيفة لكن التكييف لا يعمل جيداً في الصيف، مما يجعل الانتظار غير مريح.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Conceive-The Gynacology & Fertility Hospital",
+    "category": "safety",
+    "text": "مستشفى كونسيف يوفر خصوصية وأمان عاليين، والطاقم الطبي متعاطف جداً مع المرضى.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Conceive-The Gynacology & Fertility Hospital",
+    "category": "safety",
+    "text": "The facility is clean and secure, but communication about wait times could be better.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "New W Mart Supermarket",
+    "category": "amenities",
+    "text": "Great variety of products and usually very clean.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "New W Mart Supermarket",
+    "category": "amenities",
+    "text": "الأسعار مرتفعة قليلاً مقارنة بالمحلات الأخرى في المنطقة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nezesaussie",
+    "category": "amenities",
+    "text": "Very convenient location, though it gets crowded during rush hour.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nezesaussie",
+    "category": "amenities",
+    "text": "خدمة سريعة ومكان منظم جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kumarakom Restaurant",
+    "category": "amenities",
+    "text": "The food is authentic and delicious, but the service is a bit slow.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kumarakom Restaurant",
+    "category": "amenities",
+    "text": "أكل ممتاز وجلسات مريحة للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nando's",
+    "category": "amenities",
+    "text": "Consistent quality and fast service every time I visit.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nando's",
+    "category": "amenities",
+    "text": "الطعم جيد لكن المكان كان مزدحماً جداً اليوم.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "المايا سوبرماركت",
+    "category": "amenities",
+    "text": "Everything you need for daily groceries is available here.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "المايا سوبرماركت",
+    "category": "amenities",
+    "text": "تعامل الموظفين راقٍ جداً والمنتجات طازجة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "صيدلية الفاروق",
+    "category": "amenities",
+    "text": "Always well-stocked and the pharmacist takes time to explain dosages clearly.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "صيدلية الفاروق",
+    "category": "amenities",
+    "text": "خدمة سريعة والأسعار معقولة، لكن أحياناً ينقصهم بعض الأدوية النادرة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Hot Chillies",
+    "category": "amenities",
+    "text": "Great spicy wraps for a quick lunch, though the seating area gets crowded at noon.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Hot Chillies",
+    "category": "amenities",
+    "text": "الطعام لذيذ والحار في مستواه، بس التوصيل يتأخر أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aster",
+    "category": "amenities",
+    "text": "Clean clinic with professional staff, appointment booking is smooth via their app.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aster",
+    "category": "amenities",
+    "text": "عيادة مرتبة والأطباء متعاونين، بس وقت الانتظار يطول في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Shamal",
+    "category": "amenities",
+    "text": "Reliable supermarket for daily groceries, fresh produce section is decent.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Shamal",
+    "category": "amenities",
+    "text": "أسعارهم كويسة ولقينا كلشي نحتاجه، بس مواقف السيارات ضيقة شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Freedom Internet",
+    "category": "amenities",
+    "text": "Stable connection and fair pricing, customer support responds quickly on WhatsApp.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Freedom Internet",
+    "category": "amenities",
+    "text": "النت سريع وما ينقطع، بس الفاتورة تأخرت مرة وحدة الشهر الماضي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Asado",
+    "category": "amenities",
+    "text": "Great steak and solid wine list, but the service can be slow when it's busy.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Asado",
+    "category": "amenities",
+    "text": "اللحم مشوي بإتقان والأجواء مريحة، بس الأسعار مرتفعة شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Rivington Grill",
+    "category": "amenities",
+    "text": "البرجر لذيذ والبطاطس مقرمشة، والمكان مناسب للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Rivington Grill",
+    "category": "amenities",
+    "text": "Good portions and friendly staff, though the noise level gets high on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NAYAS Restaurant & Cafe",
+    "category": "amenities",
+    "text": "Nice brunch spot with decent coffee and plenty of vegetarian options.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NAYAS Restaurant & Cafe",
+    "category": "amenities",
+    "text": "الجلسات حلوة والفطور متنوع، بس الخدمة أحياناً بطيئة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Circle",
+    "category": "amenities",
+    "text": "المكان أنيق والمشروبات ممتازة، بس مزدحم جداً في الليل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Circle",
+    "category": "amenities",
+    "text": "Stylish interior and creative cocktails, but it's pricey for what you get.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bussola",
+    "category": "amenities",
+    "text": "Authentic Italian flavors and a cozy atmosphere, perfect for date night.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bussola",
+    "category": "amenities",
+    "text": "الباستا طازجة والصلصات غنية، بس القائمة محدودة للحلويات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "German Limbtech Orthopaedic",
+    "category": "amenities",
+    "text": "Professional staff and quality orthopedic products, though prices are on the higher side.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "German Limbtech Orthopaedic",
+    "category": "amenities",
+    "text": "خدمة ممتازة ومنتجات طبية موثوقة، أنصح به بشدة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choithram's Super Market",
+    "category": "amenities",
+    "text": "Good variety of international products and fresh produce, parking can be tight during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choithram's Super Market",
+    "category": "amenities",
+    "text": "سوبرماركت متنوع والأسعار معقولة، لكن الزحمة شديدة في المساء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Waitrose Dubai Marina",
+    "category": "amenities",
+    "text": "Premium selection and clean layout, but definitely pricier than other supermarkets nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Waitrose Dubai Marina",
+    "category": "amenities",
+    "text": "جودة عالية ومنتجات طازجة، رغم أن الأسعار مرتفعة قليلاً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Costa",
+    "category": "amenities",
+    "text": "Consistent coffee and decent pastries, gets crowded in the mornings but service stays quick.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Costa",
+    "category": "amenities",
+    "text": "قهوة جيدة ومكان مريح للعمل، لكن الصوتي عالي أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Panino",
+    "category": "amenities",
+    "text": "Tasty sandwiches and generous portions, though the seating area feels a bit cramped.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Panino",
+    "category": "amenities",
+    "text": "سندويشات لذيذة وخدمة سريعة، المكان صغير لكن يستاهل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Super-Care",
+    "category": "amenities",
+    "text": "Super-Care has a solid selection of meds and everyday essentials, and the staff actually know where things are.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Super-Care",
+    "category": "amenities",
+    "text": "الأسعار معقولة لكن الفرع يزدحم جداً في المساء ويصعب العثور على موقف.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Starbucks",
+    "category": "amenities",
+    "text": "Consistent coffee and a decent spot to work, though the mobile order line gets chaotic during rush hour.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Starbucks",
+    "category": "amenities",
+    "text": "المشروبات جيدة لكن المكان ضيق والصوت عالي جداً للتركيز.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choitrams",
+    "category": "amenities",
+    "text": "Good produce and imported items, but checkout queues can stretch long on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choitrams",
+    "category": "amenities",
+    "text": "تنوع ممتاز في المنتجات الطازجة والمعلبات، والخدمة سريعة غالباً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Green Belt",
+    "category": "amenities",
+    "text": "Convenient for quick grocery runs, fresh bakery section is a highlight.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Green Belt",
+    "category": "amenities",
+    "text": "موقع ممتاز والأسعار منافسة، لكن بعض الأرفف تكون فارغة آخر الأسبوع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "AOC French Brasserie",
+    "category": "amenities",
+    "text": "Authentic French vibe, the onion soup and steak frites are reliably good.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "AOC French Brasserie",
+    "category": "amenities",
+    "text": "الأكل لذيذ والخدمة مهذبة، لكن الأسعار مرتفعة مقارنة بالكمية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nando's",
+    "category": "amenities",
+    "text": "Great peri-peri chicken and quick service, perfect for a casual lunch.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nando's",
+    "category": "amenities",
+    "text": "الطعام لذيذ لكن الأسعار مرتفعة قليلاً مقارنة بالمطاعم الأخرى في المنطقة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Vista Rooftop Bar & Restaurant",
+    "category": "amenities",
+    "text": "Stunning views at sunset, but the cocktails are hit or miss.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Vista Rooftop Bar & Restaurant",
+    "category": "amenities",
+    "text": "أجواء رائعة وإطلالة جميلة، لكن الخدمة بطيئة في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "ستاربكس",
+    "category": "amenities",
+    "text": "Consistent coffee and good Wi-Fi for working remotely.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "ستاربكس",
+    "category": "amenities",
+    "text": "دائماً مزدحم في الصباح، لكن المشروبات باردة ولذيذة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "كاريبو كوفي",
+    "category": "amenities",
+    "text": "Cozy atmosphere and their caramel high-rise is a favorite.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "كاريبو كوفي",
+    "category": "amenities",
+    "text": "مكان هادئ للقراءة، لكن المقاعد غير مريحة للجلوس الطويل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choitram",
+    "category": "amenities",
+    "text": "Well-stocked supermarket with fresh produce and fair prices.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choitram",
+    "category": "amenities",
+    "text": "يوجد كل ما تحتاجه للمنزل، لكن مواقف السيارات ضيقة جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Flowers Ale",
+    "category": "quietness_negative",
+    "text": "Great beer selection but the music gets deafening after 10 PM — hard to hold a conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Flowers Ale",
+    "category": "quietness_negative",
+    "text": "الأجواء حلوة والمشروبات ممتازة، بس الضجيج ليلاً مزعج جداً خاصة في عطلة الأسبوع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Black Cave",
+    "category": "quietness_negative",
+    "text": "Cool underground vibe, though the bass shakes the walls on weekends — bring earplugs if you're sensitive.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Black Cave",
+    "category": "quietness_negative",
+    "text": "مكان مميز وديكور رهيب، بس الصوت عالي جداً بعد منتصف الليل، صعب تسترخي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Q D’s",
+    "category": "quietness_negative",
+    "text": "Friendly staff and decent cocktails, but the crowd noise spills onto the street late at night.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Q D’s",
+    "category": "quietness_negative",
+    "text": "الخدمة كويسة والأسعار معقولة، بس الضوضاء ليلاً بتوصل للشارع وتزعج الجيران.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Q43",
+    "category": "quietness_negative",
+    "text": "Stylish spot with good DJs, but it's basically a nightclub volume-wise after 11 — not for quiet drinks.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Q43",
+    "category": "quietness_negative",
+    "text": "الديكور حلو والموسيقى متنوعة، بس الصوت طاغي جداً بعد 11، مش مناسب لجلسة هادية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Healey’s Bar and Terrace",
+    "category": "quietness_negative",
+    "text": "Lovely terrace for sunset, but the indoor area gets rowdy and loud once the night crowd arrives.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Healey’s Bar and Terrace",
+    "category": "quietness_negative",
+    "text": "التراس روعة للغروب، بس الداخل بيزعق ليلاً مع الزحمة، صعب تتكلم براحتك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Shades",
+    "category": "quietness_negative",
+    "text": "Music gets loud after 10 PM but the soundproofing keeps it from bleeding into the street.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Shades",
+    "category": "quietness_negative",
+    "text": "الصوت عالي جداً في عطلة نهاية الأسبوع، صعب تتكلم مع صحابك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Barefoot Lounge",
+    "category": "quietness_negative",
+    "text": "Great vibe early evening, but the DJ cranks the bass way up past midnight — tough if you live nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Barefoot Lounge",
+    "category": "quietness_negative",
+    "text": "المكان حلو وهادئ في البداية، بس بعد الساعة 12 يصير ضجيج مزعج.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Pure Sky Lounge & Dining",
+    "category": "quietness_negative",
+    "text": "Rooftop views are stunning, though the late-night crowd noise carries — keep windows closed if you're sleeping.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Pure Sky Lounge & Dining",
+    "category": "quietness_negative",
+    "text": "إطلالة رائعة لكن الضوضاء ليلاً مزعجة للسكان المجاورين.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Siddharta Lounge",
+    "category": "quietness_negative",
+    "text": "Chill atmosphere most nights, but weekends get rowdy — bass thumps through the walls until 2 AM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Siddharta Lounge",
+    "category": "quietness_negative",
+    "text": "أجواء جميلة وأغاني حلوة، بس الصوت عالي جداً في الوיקند.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Tomo Restaurant",
+    "category": "quietness_negative",
+    "text": "Food's excellent and it's quiet during dinner, but the lounge area gets loud after 11 with zero sound dampening.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Tomo Restaurant",
+    "category": "quietness_negative",
+    "text": "الأكل ممتاز والمكان هادئ وقت الغداء، بس ليلاً يصير مزعج جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Jebel Ali Police Station",
+    "category": "safety",
+    "text": "The station feels professional and well-organized; officers are courteous and the waiting area is clean.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Jebel Ali Police Station",
+    "category": "safety",
+    "text": "المكان مرتب والضباط متعاونون، لكن الانتظار أحياناً يطول في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Smilecare Medical Center LLC 042855066",
+    "category": "safety",
+    "text": "Clean facility and friendly staff, though the appointment system could be faster.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Smilecare Medical Center LLC 042855066",
+    "category": "safety",
+    "text": "العيادة نظيفة والأطباء محترفون، لكن مواقف السيارات محدودة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Health Avenue Polyclinics",
+    "category": "safety",
+    "text": "Reassuring atmosphere with modern equipment; nurses are attentive and thorough.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Health Avenue Polyclinics",
+    "category": "safety",
+    "text": "الخدمة جيدة والأجواء هادئة، لكن الأسعار مرتفعة قليلاً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مستشفى الإمارات",
+    "category": "safety",
+    "text": "مستشفى نظيف ومنظم، الطاقم الطبي متعاون جداً ويمنح شعوراً بالأمان.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مستشفى الإمارات",
+    "category": "safety",
+    "text": "Excellent care and spotless wards, though the emergency wait can be long during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Knowledge Village Medical Fitness Centre",
+    "category": "safety",
+    "text": "Well-maintained center with professional staff; feels safe for routine check-ups.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Knowledge Village Medical Fitness Centre",
+    "category": "safety",
+    "text": "المركز مجهز جيداً والموظفون ودودون، لكن مواعيد الفحص أحياناً تتأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Madras Vegetarian Restaurant",
+    "category": "amenities",
+    "text": "Great dosas and thalis, but the service can be slow during lunch rush.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Madras Vegetarian Restaurant",
+    "category": "amenities",
+    "text": "الطعام لذيذ والأسعار معقولة، لكن المكان ضيق قليلاً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Southern Spice Restaurant",
+    "category": "amenities",
+    "text": "نكهات جنوب الهند أصيلة، خاصة السامبار والفادا، أنصح به للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Southern Spice Restaurant",
+    "category": "amenities",
+    "text": "Good biryani but the naan was a bit dry last time I visited.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aster Pharmacy",
+    "category": "amenities",
+    "text": "Well-stocked and the pharmacist is knowledgeable, though lines get long on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aster Pharmacy",
+    "category": "amenities",
+    "text": "صيدلية ممتازة ومتوفر فيها معظم الأدوية، والموظفون متعاونون جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "ChinaTown Restaurant",
+    "category": "amenities",
+    "text": "الديكور جميل والأطباق الصينية لذيذة، لكن الأسعار مرتفعة قليلاً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "ChinaTown Restaurant",
+    "category": "amenities",
+    "text": "Dim sum is solid, but the sweet and sour chicken was overly sweet for my taste.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Blue Mountain",
+    "category": "amenities",
+    "text": "Cozy cafe with great coffee and mountain views, perfect for remote work.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Blue Mountain",
+    "category": "amenities",
+    "text": "قهوة ممتازة وإطلالة رائعة، لكن الواي فاي ضعيف أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Rococo",
+    "category": "amenities",
+    "text": "Great spot for brunch, the eggs benedict is solid and the coffee holds up.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Rococo",
+    "category": "amenities",
+    "text": "المكان جميل والجلسات مريحة، لكن الخدمة أحياناً بطيئة في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Easy Pharmacy",
+    "category": "amenities",
+    "text": "Well-stocked and the pharmacist actually takes time to explain dosage.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Easy Pharmacy",
+    "category": "amenities",
+    "text": "أسعارهم معقولة ولقوا كل الأدوية اللي أحتاجها، بس موقف السيارات ضيق شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "West Zone Supermarket",
+    "category": "amenities",
+    "text": "Good produce section and decent prices on household basics.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "West Zone Supermarket",
+    "category": "amenities",
+    "text": "السوبرماركت كبير ولقى كل شي، بس الكاشيرز أحياناً فيه طابور طويل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Tamasha",
+    "category": "amenities",
+    "text": "Flavorful Indian food, the butter chicken and garlic naan are reliable picks.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Tamasha",
+    "category": "amenities",
+    "text": "الأكل لذيذ والكميات كويسة، بس المكان يصير صاخب بالعشاء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "ASTER Medical Centre, Al Warqa",
+    "category": "amenities",
+    "text": "Clean facility and the doctors are thorough, though wait times can stretch.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "ASTER Medical Centre, Al Warqa",
+    "category": "amenities",
+    "text": "العيادة مرتبة والدكاترة محترمين، بس المواعيد أحياناً تتأخر شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Food To Go",
+    "category": "amenities",
+    "text": "Quick bites that actually taste fresh — the shawarma wrap is my go-to lunch when I'm rushing between meetings.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Food To Go",
+    "category": "amenities",
+    "text": "مريح جداً للفطور السريع، الفول والفلافل طازجة والأسعار معقولة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Cielo Sky Lounge",
+    "category": "quietness_negative",
+    "text": "Great views but the music stays loud past midnight — fine for weekends, tough if you live nearby and need sleep.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Cielo Sky Lounge",
+    "category": "quietness_negative",
+    "text": "الإطلالة رائعة لكن الصوت عالي جداً بعد الساعة 12، صعب النوم في الشقق القريبة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Club Boudoir",
+    "category": "quietness_negative",
+    "text": "Bass shakes the windows on Friday nights; earplugs are basically mandatory if you're within two blocks.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Club Boudoir",
+    "category": "quietness_negative",
+    "text": "الموسيقى عالية جداً في عطلة نهاية الأسبوع، تهز النوافذ وتستمر لوقت متأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bubbles Bar",
+    "category": "quietness_negative",
+    "text": "Fun atmosphere but the crowd spills onto the street after closing — noisy chatter until 3 AM most weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bubbles Bar",
+    "category": "quietness_negative",
+    "text": "مكان لطيف لكن الزبائن يفضلون الوقوف في الشارع بعد الإغلاق، ضجيج وصوت عالي لوقت متأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Unison office",
+    "category": "quietness_negative",
+    "text": "The office itself is quiet, but the HVAC unit on the roof drones all night — annoying in summer when windows are open.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Unison office",
+    "category": "quietness_negative",
+    "text": "المكتب هادئ لكن وحدة التكييف على السطح تصدر طنين مستمر ليلاً، مزعج جداً في الصيف.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "101 Privé",
+    "category": "quietness_negative",
+    "text": "Great vibe but the music gets deafening after midnight — bring earplugs if you want to talk.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "101 Privé",
+    "category": "quietness_negative",
+    "text": "المكان حلو والأجواء حلوة بس الصوت عالي جداً بعد نص الليل، صعب تتكلم مع صحابك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Heineken",
+    "category": "quietness_negative",
+    "text": "Solid spot for drinks, though the bass shakes the tables on weekends — not ideal for a quiet catch-up.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Heineken",
+    "category": "quietness_negative",
+    "text": "كويس للشرب بس الموسيقى عالية قوي في الويكند، مش مناسب لو عايز تقعد تتكلم براحتك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "poppy, renaissance downtown hotel",
+    "category": "quietness_negative",
+    "text": "Stylish rooftop but the DJ cranks it up past 11 — fine for dancing, tough for conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "poppy, renaissance downtown hotel",
+    "category": "quietness_negative",
+    "text": "الرووف توب حلو جداً بس الدي جي يرفع الصوت بعد 11، حلو للرقص بس صعب تتكلم.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "look up, la ville hotel",
+    "category": "quietness_negative",
+    "text": "Nice views and cocktails, but the noise carries — you'll be shouting by midnight.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "look up, la ville hotel",
+    "category": "quietness_negative",
+    "text": "الإطلالة حلوة والكوكتييلات لذيذة بس الضوضاء بتوصل للأعلى، هتضطر تصرخ نص الليل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "seventy seven",
+    "category": "quietness_negative",
+    "text": "Fun energy and good drinks, though it gets rowdy late — weekends are a lottery for noise.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "seventy seven",
+    "category": "quietness_negative",
+    "text": "طاقة حلوة والمشروبات كويسة بس بتلاقي زحمة وضوضاء متأخر، الويكند بالصدفة لو هتلاقي مكان هادي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "V Deck",
+    "category": "quietness_negative",
+    "text": "Great rooftop vibe but the music gets deafening after 11 PM — bring earplugs if you want to talk.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "V Deck",
+    "category": "quietness_negative",
+    "text": "المكان حلو والأجواء حلوة بس الصوت عالي جداً بعد منتصف الليل، صعب تتكلم مع صحابك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "V Lounge",
+    "category": "quietness_negative",
+    "text": "في لاونج راقي بس الدي جي يرفع الصوت لحد ما تخش في راسك، ما ينفع للحوار الهادئ.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "V Lounge",
+    "category": "quietness_negative",
+    "text": "Stylish spot, though the bass shakes the tables on weekends — fine for dancing, not for catching up.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Heineken",
+    "category": "quietness_negative",
+    "text": "Solid beer selection but the crowd noise peaks around midnight, making conversation a shouting match.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Heineken",
+    "category": "quietness_negative",
+    "text": "البيرة ممتازة بس الضجيج بعد العاشرة مساءً مزعج، خاصة لو جاي مع مجموعة كبيرة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Black Tap Craft Burgers & Shakes",
+    "category": "quietness_negative",
+    "text": "البرجرز لذيذة والميلك شيك حلو، بس المكان يصير ضوضاء جداً في الليل، ما يناسب العوايل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Black Tap Craft Burgers & Shakes",
+    "category": "quietness_negative",
+    "text": "Amazing burgers, but the bar area gets rowdy after 10 — ask for a booth away from the speakers.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Hibiki Karaoke Bar",
+    "category": "quietness_negative",
+    "text": "Fun karaoke nights, though soundproofing is poor — you'll hear every off-key rendition from the next room.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Hibiki Karaoke Bar",
+    "category": "quietness_negative",
+    "text": "كاريوكي ممتع والأجواء حماسية، بس العزل الصوتي ضعيف وتسمع غناء الغرف المجاورة بوضوح.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lock Stock & Barrel",
+    "category": "quietness_negative",
+    "text": "Great music but gets deafeningly loud after 10pm — bring earplugs if you want to talk.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lock Stock & Barrel",
+    "category": "quietness_negative",
+    "text": "المكان حيوي والموسيقى حلوة، بس الضجيج بعد منتصف الليل مبالغ فيه وصعب تتكلم مع صحابك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lassi Bar",
+    "category": "quietness_negative",
+    "text": "Cozy spot for drinks but the bass shakes the tables on weekends — not ideal for conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lassi Bar",
+    "category": "quietness_negative",
+    "text": "بار لطيف والمشروبات ممتازة، بس الصوت عالي جداً في الإجازات وما تقدر تسمع نفسك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Chandini South Indian",
+    "category": "quietness_negative",
+    "text": "Surprisingly loud for a restaurant — the lounge area turns into a club vibe late night with thumping music.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Chandini South Indian",
+    "category": "quietness_negative",
+    "text": "الأكل لذيذ بس المكان يتحول لنادي ليلي بعد العشاء، الضجيج مزعج وما يناسب العوايل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Enish Nigerian Restaurant & Lounge",
+    "category": "quietness_negative",
+    "text": "Vibrant atmosphere and good food, but the live band on Fridays makes it impossible to hear each other.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Enish Nigerian Restaurant & Lounge",
+    "category": "quietness_negative",
+    "text": "أجواء رائعة وأكل نيجيري أصيل، بس الفرقة الموسيقية يوم الجمعة عالية جداً وما تقدر تتكلم.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Trader Vic's",
+    "category": "quietness_negative",
+    "text": "Classic tiki bar with strong drinks, though the DJ sets get overwhelmingly loud after 11pm.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Trader Vic's",
+    "category": "quietness_negative",
+    "text": "بار تيكي كلاسيكي ومشروبات قوية، بس الدي جي بعد 11 الليل يرفع الصوت لمستوى مزعج.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Champs Sports Bar",
+    "category": "quietness_negative",
+    "text": "Great spot to catch the match but gets deafeningly loud when the home team scores — bring earplugs if you're sensitive.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Champs Sports Bar",
+    "category": "quietness_negative",
+    "text": "الأجواء حماسية أثناء المباريات لكن الضجيج مبالغ فيه، صعب تتكلم مع صحابك.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Stage Sky Lounge & Pool",
+    "category": "quietness_negative",
+    "text": "Stunning views and decent drinks, but the DJ cranks the bass past midnight — not ideal if you want conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Stage Sky Lounge & Pool",
+    "category": "quietness_negative",
+    "text": "المكان روعة والإطلالة حلوة، بس الموسيقى عالية جداً بعد الساعة 12، مستحيل تسمع حد.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Boston Bar",
+    "category": "quietness_negative",
+    "text": "Cozy Irish vibe and good pints, though weekend nights get rowdy fast — go early for a quieter drink.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Boston Bar",
+    "category": "quietness_negative",
+    "text": "بار لطيف والبيرة ممتازة، بس في الويك إند يصير زحمة وضجيج ما ينفع للهدوء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Somerset's",
+    "category": "quietness_negative",
+    "text": "Classic pub feel with solid food, but the live music nights make it impossible to hear yourself think.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Somerset's",
+    "category": "quietness_negative",
+    "text": "الأكل حلو والأجواء بريطانية، بس لما فيه موسيقى حية ما تقدر تتكلم أبداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Opus Lounge Dubai",
+    "category": "quietness_negative",
+    "text": "Upscale atmosphere and creative cocktails, though the late-night crowd gets loud — better for a 9 PM drink than 1 AM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Opus Lounge Dubai",
+    "category": "quietness_negative",
+    "text": "مكان فاخر والكوكتييلات إبداعية، بس بعد منتصف الليل يصير صاخب جداً، روح بدري عشان تستمتع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "PoolHouse OUtdoor Pool Bar",
+    "category": "quietness_negative",
+    "text": "Great vibe during the day but the bass carries way past midnight — tough if you live nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "PoolHouse OUtdoor Pool Bar",
+    "category": "quietness_negative",
+    "text": "الموسيقى عالية جداً بعد الساعة 12، صعب النوم والنوافذ مغلقة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Oro Lounge",
+    "category": "quietness_negative",
+    "text": "Nice cocktails but the DJ sets get loud after 11pm; you can hear it two blocks over.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Oro Lounge",
+    "category": "quietness_negative",
+    "text": "أجواء حلوة لكن الضجيج مزعج للسكان، خاصة في عطلة الأسبوع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bodega Garage",
+    "category": "quietness_negative",
+    "text": "Cool industrial space, though the late-night crowd spills onto the street and keeps it noisy.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bodega Garage",
+    "category": "quietness_negative",
+    "text": "المكان مميز لكن الصوت عالي جداً بعد منتصف الليل، ما ينفع للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Q",
+    "category": "quietness_negative",
+    "text": "Good music selection but soundproofing is basically nonexistent — neighbors definitely hear it.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Q",
+    "category": "quietness_negative",
+    "text": "الخدمة سريعة والأجواء حلوة، بس الضجيج الليلي مشكلة حقيقية للجيران.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Maxx Music Bar",
+    "category": "quietness_negative",
+    "text": "Live bands are fun but the volume stays cranked until closing; earplugs recommended.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Maxx Music Bar",
+    "category": "quietness_negative",
+    "text": "الحفلات جميلة لكن الصوت مبالغ فيه، تسمعه من بعيد حتى مع إغلاق النوافذ.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Clavichord Music Lounge",
+    "category": "quietness_negative",
+    "text": "Great music, but it gets way too loud to have a conversation after 10 PM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Clavichord Music Lounge",
+    "category": "quietness_negative",
+    "text": "المكان جميل لكن الضوضاء عالية جداً في عطلة نهاية الأسبوع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Waves Pool Lounge",
+    "category": "quietness_negative",
+    "text": "The vibe is amazing, though the music can be a bit disruptive if you're looking for peace.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Waves Pool Lounge",
+    "category": "quietness_negative",
+    "text": "أجواء رائعة ولكن الموسيقى صاخبة بعض الشيء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Belgian Beer Cafe",
+    "category": "quietness_negative",
+    "text": "Good drinks, but the noise level is quite high when it's crowded.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Belgian Beer Cafe",
+    "category": "quietness_negative",
+    "text": "المكان مزدحم جداً وصوته مزعج في المساء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nelson's",
+    "category": "quietness_negative",
+    "text": "A bit too noisy for my taste, but the atmosphere is lively.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Nelson's",
+    "category": "quietness_negative",
+    "text": "المكان حيوي جداً لكن الضجيج قد يكون متعباً للبعض.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "St. Trop DIFC",
+    "category": "quietness_negative",
+    "text": "Very upscale, but the loud music makes it hard to relax.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "St. Trop DIFC",
+    "category": "quietness_negative",
+    "text": "ديكور فخم ولكن مستوى الصوت مرتفع جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "industrial area police station",
+    "category": "safety",
+    "text": "Staff are professional and responsive; felt reassured filing a report late at night.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "industrial area police station",
+    "category": "safety",
+    "text": "الموظفون متعاونون وسريعي الاستجابة، شعرت بالأمان عند تقديم بلاغ في وقت متأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "KIMS Medical Clinic",
+    "category": "safety",
+    "text": "Clean facility and thorough doctors, though wait times can stretch during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "KIMS Medical Clinic",
+    "category": "safety",
+    "text": "العيادة نظيفة والأطباء مهتمون، لكن وقت الانتظار يطول أحياناً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Canadian Specialist Hospital",
+    "category": "safety",
+    "text": "High standard of care and modern equipment; nursing staff were attentive throughout my stay.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Canadian Specialist Hospital",
+    "category": "safety",
+    "text": "مستوى رعاية عالٍ وتجهيزات حديثة، طاقم التمريض كان متابعاً لحالتي طوال فترة الإقامة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Rashid hospital",
+    "category": "safety",
+    "text": "Emergency department runs efficiently even when busy; doctors explain things clearly.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Rashid hospital",
+    "category": "safety",
+    "text": "قسم الطوارئ منظم حتى في أوقات الزحام، والأطباء يشرحون الحالة بوضوح.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dubai Homeopathy Health Centre",
+    "category": "safety",
+    "text": "Gentle approach and detailed consultations, but results take patience and multiple visits.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dubai Homeopathy Health Centre",
+    "category": "safety",
+    "text": "أسلوب لطيف واستشارات مفصلة، لكن النتائج تحتاج صبر وزيارات متكررة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مركز ميدكير للعيون",
+    "category": "safety",
+    "text": "The eye clinic feels clean and the staff are reassuring, though wait times can be long on busy days.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مركز ميدكير للعيون",
+    "category": "safety",
+    "text": "العيادة نظيفة والموظفون متعاونون، لكن الانتظار أحياناً طويل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medcare Orthopaedics & Spine Hospital",
+    "category": "safety",
+    "text": "Professional orthopaedic care with modern facilities; the nurses are attentive.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medcare Orthopaedics & Spine Hospital",
+    "category": "safety",
+    "text": "المستشفى مجهز جيداً والأطباء خبراء، لكن الأسعار مرتفعة نسبياً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dr Joy Karama",
+    "category": "safety",
+    "text": "Dr. Joy's clinic is tidy and the doctor explains everything clearly.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dr Joy Karama",
+    "category": "safety",
+    "text": "العيادة مريحة والطبيب يستمع جيداً، لكن المواعيد أحياناً تتأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mediclinic",
+    "category": "safety",
+    "text": "Mediclinic offers reliable service and a calm environment; parking can be tricky.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mediclinic",
+    "category": "safety",
+    "text": "ميديكال كلينك توفر خدمة موثوقة وبيئة هادئة، لكن موقف السيارات محدود.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Exeter Medical Center",
+    "category": "safety",
+    "text": "The center feels safe and well‑organized, though the reception could be friendlier.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Exeter Medical Center",
+    "category": "safety",
+    "text": "المركز منظم وآمن، لكن الاستقبال يحتاج لتحسين في التعامل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Emirate Hospital",
+    "category": "safety",
+    "text": "Clean facility and the staff made me feel reassured during a stressful visit.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Emirate Hospital",
+    "category": "safety",
+    "text": "المستشفى نظيف والطاقم الطبي محترف جداً، شعرت بالأمان والراحة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Zahra (pvt) Medical centre",
+    "category": "safety",
+    "text": "Good care overall, though wait times can be long during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Zahra (pvt) Medical centre",
+    "category": "safety",
+    "text": "العيادة مجهزة جيداً والأطباء مهتمون، لكن المواعيد أحياناً تتأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Rashidiyah Polyclinin",
+    "category": "safety",
+    "text": "Convenient location and the nurses were attentive when I brought my child in.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Rashidiyah Polyclinin",
+    "category": "safety",
+    "text": "موقع ممتاز والتعامل راقٍ، لكن ينقصه بعض التجهيزات الحديثة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "UAE Aikido",
+    "category": "safety",
+    "text": "Great environment for learning self-defense — instructors emphasize safety and control.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "UAE Aikido",
+    "category": "safety",
+    "text": "مكان ممتاز لتعلم الأيكيدو، المدربون يركزون على السلامة والانضباط.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aster Medical Center",
+    "category": "safety",
+    "text": "Professional staff and spotless exam rooms — felt well taken care of.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aster Medical Center",
+    "category": "safety",
+    "text": "المركز الطبي نظيف جداً والطاقم متعاون، تجربة مريحة بشكل عام.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medcare Medical Centre Sharjah",
+    "category": "safety",
+    "text": "Clean facility and professional staff made me feel well cared for during my visit.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medcare Medical Centre Sharjah",
+    "category": "safety",
+    "text": "العيادة نظيفة جداً والأطباء متعاونون، شعرت بالاطمئنان منذ اللحظة الأولى.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dhaw Al Qamar Medical Centre",
+    "category": "safety",
+    "text": "Good experience overall, though wait times can be long during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dhaw Al Qamar Medical Centre",
+    "category": "safety",
+    "text": "مستوى النظافة ممتاز والتعامل راقٍ، أنصح به للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NMC Medical Centre Sharjah",
+    "category": "safety",
+    "text": "Reliable clinic with thorough doctors; the reception could be more organized.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NMC Medical Centre Sharjah",
+    "category": "safety",
+    "text": "أطباء أكفاء والمكان مريح، لكن مواقف السيارات محدودة أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Sabah Al-Noor Medical Centre",
+    "category": "safety",
+    "text": "Friendly nurses and a calm atmosphere — felt safe bringing my child here.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Sabah Al-Noor Medical Centre",
+    "category": "safety",
+    "text": "خدمة جيدة وطاقم طبي محترف، العيادة منظمة ونظيفة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Karama Medical Centre",
+    "category": "safety",
+    "text": "Decent care for routine check-ups, but the building feels a bit dated.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Karama Medical Centre",
+    "category": "safety",
+    "text": "الأطباء مهتمون بالتفاصيل والمكان هادئ، تجربة إيجابية بشكل عام.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Quoz Mall Medical Fitness Centre",
+    "category": "safety",
+    "text": "The centre feels very clean and well-organized; staff are professional and make you feel safe during check-ups.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Quoz Mall Medical Fitness Centre",
+    "category": "safety",
+    "text": "العيادة نظيفة والموظفون محترفون، لكن وقت الانتظار أحياناً طويل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Khail Medical Center",
+    "category": "safety",
+    "text": "A reassuring environment with attentive nurses and clear safety protocols throughout.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Khail Medical Center",
+    "category": "safety",
+    "text": "الرعاية ممتازة والأمان واضح، لكن موقف السيارات مزدحم دائماً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Canada DCuan Medical center",
+    "category": "safety",
+    "text": "Modern facility with good hygiene standards, though it gets quite busy during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Canada DCuan Medical center",
+    "category": "safety",
+    "text": "المركز نظيف ومنظم جداً، والخدمة سريعة نسبياً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "institute of Medical Aesthetic",
+    "category": "safety",
+    "text": "Professional staff and a calm, sterile atmosphere that puts you at ease for procedures.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "institute of Medical Aesthetic",
+    "category": "safety",
+    "text": "المكان آمن ونظيف لكن الأسعار مرتفعة مقارنة بالعيادات الأخرى.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medeor 24x7 Hospital",
+    "category": "safety",
+    "text": "Knowing it's open 24/7 with visible security and clean wards gives real peace of mind.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medeor 24x7 Hospital",
+    "category": "safety",
+    "text": "طوارئ ممتازة ومتاحة دائماً، لكن الانتظار في العيادات الخارجية طويل أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Car Checkup n Registration Area Sharjah",
+    "category": "safety",
+    "text": "The staff at the car checkup area are efficient and the facility feels secure.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Car Checkup n Registration Area Sharjah",
+    "category": "safety",
+    "text": "المكان نظيف ومنظم، ويشعر بالأمان أثناء الانتظار.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "New Medical Center",
+    "category": "safety",
+    "text": "Clean waiting rooms and friendly nurses make visits reassuring.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "New Medical Center",
+    "category": "safety",
+    "text": "العيادة حديثة لكن وقت الانتظار طويل أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "al badia dental clinic",
+    "category": "safety",
+    "text": "Dentists are thorough, though the clinic could use better signage.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "al badia dental clinic",
+    "category": "safety",
+    "text": "الطاقم محترف والعيادة نظيفة جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مركز صحي المزهر",
+    "category": "safety",
+    "text": "المركز يوفر خدمات جيدة والموظفون متعاونون.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مركز صحي المزهر",
+    "category": "safety",
+    "text": "Facility is well‑maintained but parking can be tight.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Das Medical Clinic",
+    "category": "safety",
+    "text": "Doctors listen carefully and the environment feels safe.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Das Medical Clinic",
+    "category": "safety",
+    "text": "العيادة مريحة لكن التكييف أحياناً ضعيف.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aesthetic Surgery",
+    "category": "safety",
+    "text": "The clinic feels very clean and the staff are professional, which makes me feel safe during visits.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aesthetic Surgery",
+    "category": "safety",
+    "text": "العيادة نظيفة جداً والفريق الطبي محترف، مما يعطي شعوراً بالأمان والراحة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Eye Medical Center",
+    "category": "safety",
+    "text": "Well-organized and hygienic, though the waiting area can get a bit crowded at peak times.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Eye Medical Center",
+    "category": "safety",
+    "text": "مركز منظم ونظيف، لكن منطقة الانتظار تمتلئ أحياناً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "International Eye Surgery Center",
+    "category": "safety",
+    "text": "Modern facilities and strict safety protocols; I felt reassured throughout my procedure.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "International Eye Surgery Center",
+    "category": "safety",
+    "text": "مرافق حديثة وبروتوكولات سلامة صارمة، شعرت بالاطمئنان طوال الإجراء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lesprit Medical Clinic",
+    "category": "safety",
+    "text": "Clean and calm environment, but the reception could be more welcoming.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lesprit Medical Clinic",
+    "category": "safety",
+    "text": "بيئة نظيفة وهادئة، لكن الاستقبال يمكن أن يكون أكثر ترحيباً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Marina Medical Center",
+    "category": "safety",
+    "text": "Professional staff and spotless rooms; it's a place where you feel well taken care of.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Marina Medical Center",
+    "category": "safety",
+    "text": "طاقم مهني وغرف نظيفة جداً، مكان تشعر فيه بالاهتمام الجيد.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Gulf Medical Centre",
+    "category": "safety",
+    "text": "The staff are professional and the facility feels very clean and secure.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Gulf Medical Centre",
+    "category": "safety",
+    "text": "العيادة نظيفة والموظفون متعاونون، لكن وقت الانتظار أحياناً طويل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Punjabi",
+    "category": "amenities",
+    "text": "Solid Punjabi food with generous portions — the butter chicken and garlic naan are reliable picks.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Punjabi",
+    "category": "amenities",
+    "text": "الطعام لذيذ والأسعار معقولة، لكن الخدمة أحياناً بطيئة وقت الغداء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Foodlands",
+    "category": "amenities",
+    "text": "Good selection of fresh produce and imported snacks; prices are fair for the area.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Foodlands",
+    "category": "amenities",
+    "text": "سوبرماركت مرتب ويوجد فيه كل الأساسيات، لكن قسم الخضار يحتاج تجديد أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Talal Supermarket",
+    "category": "amenities",
+    "text": "Convenient for daily groceries, though the checkout lines get long in the evenings.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Talal Supermarket",
+    "category": "amenities",
+    "text": "محل عملي وقريب من البيت، فيه تشكيلة كويسة من المعلبات والأجبان.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مهدي",
+    "category": "amenities",
+    "text": "Small but well-stocked corner shop — great for quick grabs like bread, eggs, and drinks.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مهدي",
+    "category": "amenities",
+    "text": "صاحب المحل ودود والأسعار مناسبة، أروح له دايماً للاحتياجات السريعة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Khaymat Al Bahar",
+    "category": "amenities",
+    "text": "Tasty seafood with a casual vibe; the grilled fish platter is worth ordering.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Khaymat Al Bahar",
+    "category": "amenities",
+    "text": "المأكولات البحرية طازجة ولذيذة، لكن المكان يصخب قليلاً في عطلات الأسبوع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Peacock Alley DIFC",
+    "category": "quietness_negative",
+    "text": "Great cocktails but the DJ gets way too loud after 11pm — hard to hold a conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Peacock Alley DIFC",
+    "category": "quietness_negative",
+    "text": "المكان جميل والكوكتيلات ممتازة، بس الصوت عالي جداً في الليل وما تقدر تتكلم براحة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Above 21",
+    "category": "quietness_negative",
+    "text": "Stunning views, but the bass from the rooftop parties vibrates through the nearby apartments.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Above 21",
+    "category": "quietness_negative",
+    "text": "إطلالة رائعة والأجواء حلوة، بس الضجيج بعد منتصف الليل مزعج للجيران.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Roar",
+    "category": "quietness_negative",
+    "text": "Fun night out, though the sound system is brutal — my ears were ringing the next morning.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Roar",
+    "category": "quietness_negative",
+    "text": "نادي ليلي ممتاز والطاقة عالية، بس الصوت مبالغ فيه جداً وما ينفع للجلوس الهادئ.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Penthouse",
+    "category": "quietness_negative",
+    "text": "Classy spot with good music, but it gets rowdy late night and spills onto the street.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Penthouse",
+    "category": "quietness_negative",
+    "text": "المكان أنيق والموسيقى حلوة، بس بعد الساعة 12 يصير زحمة وضجيج في الشارع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Smoky Beach",
+    "category": "quietness_negative",
+    "text": "Chill beach vibes early evening, then the speakers crank up and it's basically a club.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Smoky Beach",
+    "category": "quietness_negative",
+    "text": "أجواء الشاطئ حلوة في البداية، بس الصوت يرتفع جداً ليلاً وما تقدر تسترخي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "mid east polyclinic",
+    "category": "safety",
+    "text": "The staff at Mid East Polyclinic are professional and the facility feels clean and secure, though wait times can be long during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "mid east polyclinic",
+    "category": "safety",
+    "text": "العيادة نظيفة والموظفون متعاونون، لكن المواعيد أحياناً تتأخر قليلاً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "nmc jabel ali",
+    "category": "safety",
+    "text": "NMC Jabel Ali gives a reassuring sense of safety with its modern equipment and attentive nurses, even if parking is a bit tight.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "nmc jabel ali",
+    "category": "safety",
+    "text": "مستشفى إن إم سي في جبل علي يوفر رعاية جيدة وأجواء آمنة، لكن موقف السيارات مزدحم غالباً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al khawaneej Health Centre",
+    "category": "safety",
+    "text": "Al Khawaneej Health Centre is well-maintained and the doctors are thorough, though the pharmacy queue moves slowly.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al khawaneej Health Centre",
+    "category": "safety",
+    "text": "مركز الخوانيج الصحي نظيف والأطباء مهتمون، لكن طابور الصيدلية بطيء أحياناً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "University Dental Hospital",
+    "category": "safety",
+    "text": "The University Dental Hospital feels very clinical and safe, with strict hygiene protocols, but appointments are hard to get on short notice.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "University Dental Hospital",
+    "category": "safety",
+    "text": "مستشفى جامعة الأسنان يتميز بالنظافة الصارمة والأمان، لكن حجز المواعيد صعب في وقت قصير.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Shifa Medical Center",
+    "category": "safety",
+    "text": "Al Shifa Medical Center is clean and the staff are courteous, though the waiting area could use more seating.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Shifa Medical Center",
+    "category": "safety",
+    "text": "مركز الشفاء الطبي نظيف والموظفون لطفاء، لكن منطقة الانتظار تحتاج لمزيد من المقاعد.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مركز المزهر الصحي",
+    "category": "safety",
+    "text": "العيادة نظيفة جداً والموظفون متعاونون، شعرت بالأمان أثناء زيارتي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مركز المزهر الصحي",
+    "category": "safety",
+    "text": "Good basic care but the waiting area could use better ventilation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NMC hospital DIP",
+    "category": "safety",
+    "text": "Staff were professional and the facility felt secure even late at night.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "NMC hospital DIP",
+    "category": "safety",
+    "text": "المستشفى مجهز جيداً لكن مواعيد العيادات أحياناً تتأخر.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Get On Track",
+    "category": "safety",
+    "text": "Clean environment and the nurses made me feel reassured during my check‑up.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Get On Track",
+    "category": "safety",
+    "text": "الخدمة ممتازة لكن الأسعار مرتفعة قليلاً مقارنة بالعيادات الأخرى.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Demaline Cosmetic Kin and Laser Centre",
+    "category": "safety",
+    "text": "Very hygienic clinic; the doctor explained every step, which put me at ease.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Demaline Cosmetic Kin and Laser Centre",
+    "category": "safety",
+    "text": "المركز نظيف والطاقم محترف، لكن وقت الانتظار كان طويلاً في يوم زيارتي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medcare",
+    "category": "safety",
+    "text": "Reliable emergency services and the premises always feel safe and well‑maintained.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Medcare",
+    "category": "safety",
+    "text": "الرعاية جيدة لكن نظام الحجز الإلكتروني يحتاج تحسين.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Khan R/A Supermarket",
+    "category": "amenities",
+    "text": "Good selection of fresh produce and pantry staples; prices are fair for the area.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Khan R/A Supermarket",
+    "category": "amenities",
+    "text": "المكان مرتب والبضاعة طازجة، لكن الزحمة وقت الظهيرة تكون مزعجة شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Boots Pharmacy",
+    "category": "amenities",
+    "text": "Staff are knowledgeable and quick to help find the right medication.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Boots Pharmacy",
+    "category": "amenities",
+    "text": "الصيدلية نظيفة والموظفين محترمين، بس أحياناً ينقصهم بعض الأدوية النادرة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Arabella Pharmacy",
+    "category": "amenities",
+    "text": "Convenient location and they usually have what I need in stock.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Arabella Pharmacy",
+    "category": "amenities",
+    "text": "خدمة سريعة وأسعار معقولة، بس وقت الذروة تنتظر شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Shaklan Supermarket",
+    "category": "amenities",
+    "text": "Decent variety but the checkout lines can get long on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Shaklan Supermarket",
+    "category": "amenities",
+    "text": "السوبرماركت كويس وفيه كلشي، بس قسم الخضار أحياناً ما يكون طازج.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Pak Jinnah Supermarket",
+    "category": "amenities",
+    "text": "Great for imported snacks and spices; prices are competitive.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Pak Jinnah Supermarket",
+    "category": "amenities",
+    "text": "تشكيلة حلوة من البهارات والمنتجات الآسيوية، والموظفين ودودين.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Edelweiss Market",
+    "category": "amenities",
+    "text": "Good selection of European products and fresh produce, though prices run a bit high for everyday shopping.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Edelweiss Market",
+    "category": "amenities",
+    "text": "السوبرماركت نظيف ومنظم، وأجد كل ما أحتاجه من منتجات مستوردة، لكن مواقف السيارات قليلة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Emirates CO-OP Al Mizhar 2",
+    "category": "amenities",
+    "text": "Reliable for weekly groceries and the loyalty card gives decent discounts on basics.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Emirates CO-OP Al Mizhar 2",
+    "category": "amenities",
+    "text": "تعاونية ممتازة وأسعارها معقولة مقارنة بالأسواق الأخرى، والخضار دائماً طازجة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Life Mezhar Pharmacy",
+    "category": "amenities",
+    "text": "Pharmacists are knowledgeable and take time to explain medications, but it gets busy in the evenings.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Life Mezhar Pharmacy",
+    "category": "amenities",
+    "text": "الصيدلية توفر معظم الأدوية والمستحضرات، والخدمة سريعة حتى في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dhow & Lagoon Kitchen",
+    "category": "amenities",
+    "text": "Great seafood platters with a nice lagoon view, though service can be slow when it's full.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dhow & Lagoon Kitchen",
+    "category": "amenities",
+    "text": "أكل بحري لذيذ وإطلالة جميلة، لكن الأسعار مرتفعة قليلاً للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Wave View Café",
+    "category": "amenities",
+    "text": "Perfect spot for morning coffee with a view, but the Wi-Fi is unreliable for working.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Wave View Café",
+    "category": "amenities",
+    "text": "كافيه هادئ وقهوته ممتازة، والموظفون ودودون، أتمنى لو يمددون ساعات العمل ليلاً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "آيلاند بيتش كلوب",
+    "category": "amenities",
+    "text": "Great spot for sunset drinks, though the music gets loud after 10 PM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "آيلاند بيتش كلوب",
+    "category": "amenities",
+    "text": "الخدمة ممتازة والأكل طازج، بس الأسعار شوية عالية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "fine mart",
+    "category": "amenities",
+    "text": "Convenient for quick grocery runs, fresh produce section is decent.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "fine mart",
+    "category": "amenities",
+    "text": "محل عملي ولقي كلشي، بس الوقوف قدامو صعب شوية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lebanos",
+    "category": "amenities",
+    "text": "Authentic Lebanese flavors, the mixed grill is a must-try.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Lebanos",
+    "category": "amenities",
+    "text": "التبولة والحمص لذيذين، بس المكان ضيق والانتظار طويل بالعطل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aquamarine",
+    "category": "amenities",
+    "text": "Nice poolside vibe, good cocktails but service can be slow when busy.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Aquamarine",
+    "category": "amenities",
+    "text": "إطلالة حلوة والمسبح نظيف، بس المنيو محدود للغدا.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Organic Café",
+    "category": "amenities",
+    "text": "Love their oat milk latte and avocado toast, perfect for remote work.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Organic Café",
+    "category": "amenities",
+    "text": "أكل صحي ولذيذ، بس المقاعد مش مريحة للجلوس الطويل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Organic Foods",
+    "category": "amenities",
+    "text": "Great selection of fresh produce and pantry staples, though prices run a bit high.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Organic Foods",
+    "category": "amenities",
+    "text": "محل ممتاز للمنتجات العضوية، والخضار دائماً طازجة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "المطار - مبنى رقم 3",
+    "category": "amenities",
+    "text": "Terminal 3 is spacious and well-signposted, but security queues can get long at peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "المطار - مبنى رقم 3",
+    "category": "amenities",
+    "text": "المبنى حديث ومريح، بس مواقف السيارات بعيدة شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "طهران",
+    "category": "amenities",
+    "text": "The metro network makes getting across Tehran surprisingly efficient despite the traffic.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "طهران",
+    "category": "amenities",
+    "text": "طهران كبيرة ومزدحمة، لكن المترو يوفر وقت كثير.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Maya Supermarket",
+    "category": "amenities",
+    "text": "Reliable for weekly groceries and the bakery section is a highlight.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Maya Supermarket",
+    "category": "amenities",
+    "text": "سوبرماركت عملي والأسعار معقولة، بس أحياناً ينقصه بعض الأصناف.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Arabian Ranches Golf Club",
+    "category": "amenities",
+    "text": "Well-maintained course with a relaxed atmosphere, good for a weekend round.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Arabian Ranches Golf Club",
+    "category": "amenities",
+    "text": "نادي جولف جميل والخدمات ممتازة، العضوية غالية شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Palermo",
+    "category": "amenities",
+    "text": "Great spot for a quick lunch — the paninis are solid and the coffee hits the spot.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Palermo",
+    "category": "amenities",
+    "text": "موقع ممتاز وقريب من البيت، الأكل طازج والخدمة سريعة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Butcher Shop & Grill",
+    "category": "amenities",
+    "text": "Good meat quality but it gets loud on weekends; better for a weekday dinner.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Butcher Shop & Grill",
+    "category": "amenities",
+    "text": "اللحمة ممتازة والأسعار معقولة، بس المكان مزدحم وقت الغداء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Paragon",
+    "category": "amenities",
+    "text": "Convenient for groceries and household basics — nothing fancy but reliable.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Paragon",
+    "category": "amenities",
+    "text": "سوبرماركت عملي فيه كلشي، بس مواقف السيارات ضيقة شوي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choithram",
+    "category": "amenities",
+    "text": "Well-stocked with international brands; produce section could be fresher.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Choithram",
+    "category": "amenities",
+    "text": "تنوع جيد في المنتجات والأسعار مقبولة، 직원 ودودين.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مرسى دبي",
+    "category": "amenities",
+    "text": "Handy for daily needs and the metro connection makes errands easy.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "مرسى دبي",
+    "category": "amenities",
+    "text": "موقع استراتيجي وكل الخدمات متوفرة، بس الزحمة شديدة وقت الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Marina Mini Mart",
+    "category": "amenities",
+    "text": "Convenient spot for late-night snacks and basics, though the produce section could be fresher.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Marina Mini Mart",
+    "category": "amenities",
+    "text": "محل صغير لكن يلبي كل الاحتياجات اليومية، والأسعار معقولة جداً.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kitchen Cafe",
+    "category": "amenities",
+    "text": "Great coffee and a quiet corner for working, but the pastries run out by noon.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kitchen Cafe",
+    "category": "amenities",
+    "text": "القهوة ممتازة والأجواء مريحة، بس الخدمة بطيئة أحياناً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mall View Palace",
+    "category": "amenities",
+    "text": "Good variety of shops and a decent food court, parking gets tight on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mall View Palace",
+    "category": "amenities",
+    "text": "مول كبير فيه كل شي، بس المكيفات ما تبرد كويس في الصيف.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "West 14th",
+    "category": "amenities",
+    "text": "Handy transit stop with clean shelters, but buses run less frequently after 8 PM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "West 14th",
+    "category": "amenities",
+    "text": "موقع ممتاز للتنقل، بس محتاج مقاعد أكثر في منطقة الانتظار.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Golden Fork",
+    "category": "amenities",
+    "text": "Tasty grilled dishes and generous portions, though the noise level rises at dinner.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Golden Fork",
+    "category": "amenities",
+    "text": "الأكل لذيذ والأسعار مناسبة، بس المكان ضيق والصوت عالي بالعشاء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Golden Fork",
+    "category": "amenities",
+    "text": "Solid neighborhood spot — the grilled chicken is consistent and the portions are generous.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Golden Fork",
+    "category": "amenities",
+    "text": "الخدمة بطيئة أحياناً لكن الأكل لذيذ والأسعار معقولة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Farhat Restaurant",
+    "category": "amenities",
+    "text": "مطعم عائلي ممتاز، المشاوي طازجة والسلطات متنوعة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Farhat Restaurant",
+    "category": "amenities",
+    "text": "Good for a casual dinner, though the hummus can be hit or miss.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Canton Chinese",
+    "category": "amenities",
+    "text": "Decent Chinese takeout — the kung pao chicken has a nice kick.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Canton Chinese",
+    "category": "amenities",
+    "text": "النودلز جيدة لكن الأطباق أحياناً تفتقر للنكهة القوية.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Rainbow Steak House",
+    "category": "amenities",
+    "text": "الستيك مطبوخ بالدرجة المطلوبة، والجو هادئ ومناسب للعشاء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Rainbow Steak House",
+    "category": "amenities",
+    "text": "Pricey for what you get — the ribeye was okay but not memorable.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dwarka Vegetarian Restaurant",
+    "category": "amenities",
+    "text": "Great vegetarian variety — the thali is a solid value for lunch.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dwarka Vegetarian Restaurant",
+    "category": "amenities",
+    "text": "خيارات نباتية متنوعة، لكن الخدمة تحتاج لتحسين في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "New Karachi Darbar",
+    "category": "amenities",
+    "text": "The biryani here is consistently good and the portions are generous for the price.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "New Karachi Darbar",
+    "category": "amenities",
+    "text": "الخدمة سريعة والأسعار معقولة، لكن المكان يزدحم جداً وقت الغداء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Madina",
+    "category": "amenities",
+    "text": "Great spot for a quick shawarma wrap late at night, always open when you need it.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Al Madina",
+    "category": "amenities",
+    "text": "الفلافل لذيذة لكن الجلوس محدود جداً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Armani/Amal",
+    "category": "amenities",
+    "text": "Upscale Indian with beautiful presentation, though it's definitely a splurge.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Armani/Amal",
+    "category": "amenities",
+    "text": "أجواء راقية والأطباق مبتكرة، لكن الخدمة كانت بطيئة قليلاً في زيارتنا الأخيرة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Table 9",
+    "category": "amenities",
+    "text": "Solid brunch menu and good coffee, my go-to for weekend mornings.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Table 9",
+    "category": "amenities",
+    "text": "الإفطار متنوع ولذيذ، لكن الضوضاء تزداد بعد الظهر مع ازدياد الزبائن.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Stage Pool Lounge",
+    "category": "quietness_negative",
+    "text": "Music gets loud after 10 PM — fine if you're there for the vibe, tough if you want conversation.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Stage Pool Lounge",
+    "category": "quietness_negative",
+    "text": "المكان جميل والمسبح رائع، لكن الصوت عالي جداً ليلاً ولا يناسب من يبحث عن هدوء.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kaftan",
+    "category": "quietness_negative",
+    "text": "Great music but the bass shakes the walls until 3 AM — tough if you live nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Kaftan",
+    "category": "quietness_negative",
+    "text": "الأجواء رائعة لكن الصوت عالي جداً بعد منتصف الليل، صعب النوم في الشقق المجاورة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Buddha Bar",
+    "category": "quietness_negative",
+    "text": "Stylish spot, though the outdoor terrace gets rowdy late night; sound carries far.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Buddha Bar",
+    "category": "quietness_negative",
+    "text": "مكان أنيق لكن الضوضاء من التراس الخارجي تزعج السكان ليلاً، خاصة في أيام العطل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bar Du Port Dubai",
+    "category": "quietness_negative",
+    "text": "Fun vibe but the DJ pumps volume past midnight — earplugs needed for neighbors.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bar Du Port Dubai",
+    "category": "quietness_negative",
+    "text": "الدي جي يرفع الصوت بعد منتصف الليل، والضوضاء تصل للشقق القريبة بوضوح.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "MixClub",
+    "category": "quietness_negative",
+    "text": "Energy is high but the thumping bass rattles windows blocks away on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "MixClub",
+    "category": "quietness_negative",
+    "text": "طاقة المكان عالية لكن الباس يهز النوافذ في الأحياء المجاورة خلال عطلة نهاية الأسبوع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "McGettigan's Factory - The Palm",
+    "category": "quietness_negative",
+    "text": "Lively Irish pub, yet the live band and crowd noise spill out until closing time.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "McGettigan's Factory - The Palm",
+    "category": "quietness_negative",
+    "text": "حانة أيرلندية حيوية لكن ضوضاء الفرقة الحية والزبائن تتسرب للخارج حتى الإغلاق.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Space Club Dubai",
+    "category": "quietness_negative",
+    "text": "The music is great but the bass shakes the walls — you can hear it from the street until 3 AM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Space Club Dubai",
+    "category": "quietness_negative",
+    "text": "المكان حيوي والموسيقى قوية، بس الضجيج مزعج جداً للسكان المجاورين بعد منتصف الليل.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "SOT Dubai - Nightclub & Lounge",
+    "category": "quietness_negative",
+    "text": "Lounge side is chill, but the main room spills heavy bass into the neighborhood past 2 AM.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "SOT Dubai - Nightclub & Lounge",
+    "category": "quietness_negative",
+    "text": "اللاونج هادي ومريح، بس الجزء الرئيسي صوته عالي جداً ويسمع في البنايات المجاورة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Vault Bar",
+    "category": "quietness_negative",
+    "text": "Cozy spot with good drinks, though the late-night crowd gets loud on weekends.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "The Vault Bar",
+    "category": "quietness_negative",
+    "text": "بار لطيف والمشروبات حلوة، بس في الويك إند الزحمة والضجيج يزعج الجيران.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mr. Miyagi's",
+    "category": "quietness_negative",
+    "text": "Great cocktails and vibe, but the outdoor terrace noise carries far after midnight.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Mr. Miyagi's",
+    "category": "quietness_negative",
+    "text": "كوكتيلات ممتازة وأجواء حلوة، بس التراس الخارجي صوته عالي بعد نص الليل ويوصل بعيد.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Muscovites Night Club & Lounge",
+    "category": "quietness_negative",
+    "text": "The bass thumps through the walls until 3 AM — great if you're inside, brutal if you live upstairs.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Muscovites Night Club & Lounge",
+    "category": "quietness_negative",
+    "text": "الموسيقى عالية جداً بعد منتصف الليل، تسمعها من الشقة المجاورة بوضوح.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "M:11 Indian Night Club",
+    "category": "quietness_negative",
+    "text": "Fun atmosphere but the sound leaks badly — you'll hear every beat from the street.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "M:11 Indian Night Club",
+    "category": "quietness_negative",
+    "text": "صوت الدي جي قوي جداً، الجيران يشتكون دائماً بعد الساعة 12.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Satoshi House",
+    "category": "quietness_negative",
+    "text": "Cool vibe but the noise carries far — not ideal for light sleepers nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Satoshi House",
+    "category": "quietness_negative",
+    "text": "المكان حلو لكن الضجيج مزعج للسكان، خاصة أيام الخميس والجمعة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Buffalo Wings & Rings JLT",
+    "category": "quietness_negative",
+    "text": "Good wings, but the late-night crowd gets rowdy and the music doesn't help.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Buffalo Wings & Rings JLT",
+    "category": "quietness_negative",
+    "text": "الأكل ممتاز بس الضوضاء ليلاً لا تطاق، الصوت يخرج للشارع.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "City Social",
+    "category": "quietness_negative",
+    "text": "Rooftop is nice but the volume stays maxed out past midnight — tough on neighbors.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "City Social",
+    "category": "quietness_negative",
+    "text": "إطلالة رائعة لكن الموسيقى صاخبة جداً بعد 12، تسمعها من بعيد.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Be Beach DXB",
+    "category": "quietness_negative",
+    "text": "Great vibe during the day but the music gets way too loud after 10 PM — hard to have a conversation without shouting.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Be Beach DXB",
+    "category": "quietness_negative",
+    "text": "المكان حلو والبحر قدامك، بس الصوت عالي جداً بالليل وما ينفع للعائلات.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ninive Beach Dubai",
+    "category": "quietness_negative",
+    "text": "Beautiful setup and decent crowd, though the bass from the DJ carries far — you'll hear it in nearby buildings.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ninive Beach Dubai",
+    "category": "quietness_negative",
+    "text": "أجواء رائعة وإطلالة مميزة، لكن الضجيج بعد منتصف الليل مزعج للجيران.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bliss Lounge",
+    "category": "quietness_negative",
+    "text": "Chill spot earlier in the evening, but once the DJ starts it turns into a proper club — not great if you live upstairs.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bliss Lounge",
+    "category": "quietness_negative",
+    "text": "هادي في البداية، بس بعدين يصير صاخب جداً وما ينفع للنوم.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bohemian",
+    "category": "quietness_negative",
+    "text": "Cool interior and good drinks, but the soundproofing is basically non-existent — neighbors definitely feel the thump.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Bohemian",
+    "category": "quietness_negative",
+    "text": "الديكور حلو والمشروبات كويسة، بس الصوت يخرج بره والمكان ما معزول.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Fisherman's hub",
+    "category": "quietness_negative",
+    "text": "Lively atmosphere and solid seafood, though the late-night crowd gets rowdy and the noise carries down the street.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Fisherman's hub",
+    "category": "quietness_negative",
+    "text": "مطعم بحري حلو وأجواء حلوة، بس بالليل يصير ضجيج وزحمة وما ينفع للسكن القريب.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ernst Biergarten",
+    "category": "quietness_negative",
+    "text": "Great beer selection but gets incredibly loud after 9 PM — not ideal if you live nearby.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ernst Biergarten",
+    "category": "quietness_negative",
+    "text": "الأجواء ممتعة لكن الضوضاء ليلاً مزعجة جداً للسكان المجاورين.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Goose & Gander Pub",
+    "category": "quietness_negative",
+    "text": "Friendly staff and decent food, though weekend nights can get rowdy until closing.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Goose & Gander Pub",
+    "category": "quietness_negative",
+    "text": "مكان لطيف للجلوس مع الأصدقاء لكن الصوت العالي بعد منتصف الليل مشكلة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ayucare Center",
+    "category": "safety",
+    "text": "Clean, well-organized, and the staff makes you feel genuinely cared for — very reassuring.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Ayucare Center",
+    "category": "safety",
+    "text": "العيادة نظيفة جداً والتعامل راقٍ، تشعر بالأمان والراحة منذ اللحظة الأولى.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dr. Smith Medical Centre",
+    "category": "safety",
+    "text": "Professional and thorough, though wait times can be long during peak hours.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Dr. Smith Medical Centre",
+    "category": "safety",
+    "text": "الأطباء كفؤون والمكان معقم، لكن وقت الانتظار طويل أحياناً في أوقات الذروة.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Royal Doctors",
+    "category": "safety",
+    "text": "Excellent care and modern facilities — one of the few places I truly trust for my family.",
+    "language": "en",
+    "source": "synthetic_deepseek_v1"
+  },
+  {
+    "place_name": "Royal Doctors",
+    "category": "safety",
+    "text": "خدمة طبية ممتازة ومرافق حديثة، من أفضل المراكز التي تعاملت معها لعائلتي.",
+    "language": "ar",
+    "source": "synthetic_deepseek_v1"
   }
 ]

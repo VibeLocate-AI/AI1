@@ -1,75 +1,61 @@
 """
 Pulls Points-of-Interest (POI) data for Dubai from OpenStreetMap via the
-Overpass API — a free, no-signup alternative/complement to Foursquare OS
-Places, used here because Foursquare's dataset is now gated behind a
-Hugging Face access request.
+Overpass API.
 
-This feeds the "Geo Intelligence" layer of the Vibe Report (US-08):
-counting/classifying nearby POIs within the 500m radius around a property.
+UPDATED: each POI now carries a `category` (the 4 broad Vibe Report
+dimensions — unchanged, still used for safety/quietness/amenities
+scoring) AND a new `subcategory` field (e.g. "hospital", "school",
+"cafe", "pharmacy") so the frontend can pick a distinct map pin icon per
+place type instead of one icon per broad category. This is purely an
+additive data change — nothing about the Vibe Report scoring logic
+changes; category stays exactly as before.
 
 Usage:
     python -m app.scripts.fetch_dubai_pois
 
 Output:
-    data/dubai_pois.json — a flat list of POIs with lat/lon/category/name,
-    ready to be loaded into PostgreSQL/PostGIS by the Backend developer.
-
-NOTE: This script needs real internet access to overpass-api.de.
-It could NOT be executed inside this sandbox (network here is restricted
-to a small allowlist of package registries). Run it on your own machine
-or inside the actual dev/CI environment.
+    data/dubai_pois.json
 """
 
 import json
 import time
 from pathlib import Path
-from wsgiref import headers
 
 import requests
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
-
-# Rough bounding box covering Dubai city (south, west, north, east).
-# Good enough for an MVP demo; narrow it to a specific district later
-# to keep result size and query time down.
 DUBAI_BBOX = (25.00, 54.90, 25.35, 55.60)
 
-# Map OSM tags -> our internal Vibe Report categories.
-# (Safety / Quietness / Amenities are the 3 dimensions from the SRS
-# Class Diagram's VibeReport entity.)
-CATEGORY_TAGS = {
-    "safety": [
-        ("amenity", "police"),
-        ("amenity", "hospital"),
-        ("amenity", "clinic"),
-    ],
-    "quietness_positive": [
-        ("leisure", "park"),
-        ("landuse", "recreation_ground"),
-    ],
-    "quietness_negative": [
-        ("amenity", "nightclub"),
-        ("amenity", "bar"),
-    ],
-    "amenities": [
-        ("amenity", "restaurant"),
-        ("amenity", "cafe"),
-        ("amenity", "pharmacy"),
-        ("shop", "supermarket"),
-        ("public_transport", "station"),
-    ],
+# Maps each OSM (key, value) tag pair to:
+#   - the broad Vibe Report category (unchanged from before — safety /
+#     quietness_positive / quietness_negative / amenities)
+#   - a specific subcategory string for map-pin icon selection
+CATEGORY_TAGS: dict[tuple[str, str], dict[str, str]] = {
+    ("amenity", "police"):        {"category": "safety", "subcategory": "police"},
+    ("amenity", "hospital"):      {"category": "safety", "subcategory": "hospital"},
+    ("amenity", "clinic"):        {"category": "safety", "subcategory": "clinic"},
+
+    ("leisure", "park"):              {"category": "quietness_positive", "subcategory": "park"},
+    ("landuse", "recreation_ground"): {"category": "quietness_positive", "subcategory": "recreation_ground"},
+
+    ("amenity", "nightclub"): {"category": "quietness_negative", "subcategory": "nightclub"},
+    ("amenity", "bar"):       {"category": "quietness_negative", "subcategory": "bar"},
+
+    ("amenity", "restaurant"):      {"category": "amenities", "subcategory": "restaurant"},
+    ("amenity", "cafe"):            {"category": "amenities", "subcategory": "cafe"},
+    ("amenity", "pharmacy"):        {"category": "amenities", "subcategory": "pharmacy"},
+    ("shop", "supermarket"):        {"category": "amenities", "subcategory": "supermarket"},
+    ("public_transport", "station"): {"category": "amenities", "subcategory": "transit_station"},
+    ("amenity", "school"):          {"category": "amenities", "subcategory": "school"},
 }
 
 
 def build_overpass_query(bbox: tuple[float, float, float, float]) -> str:
-    """Builds a single Overpass QL query that fetches every tag we care
-    about in one request, instead of one request per category (Overpass's
-    public server rate-limits aggressively, so batching matters)."""
     south, west, north, east = bbox
-    clauses = []
-    for tags in CATEGORY_TAGS.values():
-        for key, value in tags:
-            clauses.append(f'node["{key}"="{value}"]({south},{west},{north},{east});')
+    clauses = [
+        f'node["{key}"="{value}"]({south},{west},{north},{east});'
+        for (key, value) in CATEGORY_TAGS
+    ]
     body = "\n  ".join(clauses)
     return f"""
 [out:json][timeout:60];
@@ -80,19 +66,21 @@ out body;
 """
 
 
-def category_for_tags(tags: dict) -> str | None:
-    for category, kv_pairs in CATEGORY_TAGS.items():
-        for key, value in kv_pairs:
-            if tags.get(key) == value:
-                return category
+def category_for_tags(tags: dict) -> dict | None:
+    """Returns {"category": ..., "subcategory": ...} for the first
+    matching OSM tag pair, or None if this POI doesn't match any of
+    our tracked tag pairs."""
+    for (key, value), labels in CATEGORY_TAGS.items():
+        if tags.get(key) == value:
+            return labels
     return None
 
 
 def fetch_dubai_pois() -> list[dict]:
     query = build_overpass_query(DUBAI_BBOX)
     headers = {
-    "User-Agent": "VibeLocateAI-DataIngestion/0.1 (student project)",
-    "Accept": "application/json",
+        "User-Agent": "VibeLocateAI-DataIngestion/0.2 (student project; contact: naji.m.mushtaha@gmail.com)",
+        "Accept": "application/json",
     }
     response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers, timeout=90)
     response.raise_for_status()
@@ -101,10 +89,14 @@ def fetch_dubai_pois() -> list[dict]:
     pois = []
     for el in elements:
         tags = el.get("tags", {})
+        labels = category_for_tags(tags)
+        if labels is None:
+            continue
         pois.append({
             "osm_id": el["id"],
             "name": tags.get("name", "Unnamed"),
-            "category": category_for_tags(tags),
+            "category": labels["category"],
+            "subcategory": labels["subcategory"],
             "latitude": el["lat"],
             "longitude": el["lon"],
         })

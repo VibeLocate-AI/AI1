@@ -1,13 +1,8 @@
 """
 Thin wrapper around the LLM provider's OpenAI-compatible chat completions
-API (currently routed through OpenRouter — see config.py).
-
-UPDATED: added automatic fallback to a secondary model. Free-tier models
-on OpenRouter occasionally return a 502 "Service temporarily overloaded"
-from the upstream provider (we've hit this repeatedly with Nemotron 3
-Ultra) even after our retry-with-backoff logic exhausts its attempts.
-Rather than give up immediately, we now try one backup model before
-surfacing DeepSeekUnavailableError to the caller.
+API. UPDATED: every call now records a metrics event (app/services/ai_metrics.py)
+so the admin "AI service health" page can show real numbers instead of
+placeholders.
 """
 
 import json
@@ -17,6 +12,7 @@ import time
 from openai import APIError, APITimeoutError, OpenAI, RateLimitError
 
 from app.config import settings
+from app.services.ai_metrics import record_event
 
 logger = logging.getLogger("vibelocate.llm")
 
@@ -32,92 +28,101 @@ MAX_BACKOFF_SECONDS = 15.0
 
 
 class DeepSeekUnavailableError(Exception):
-    """Raised when the LLM call fails or times out (NFR3.01: graceful degradation)."""
+    pass
 
 
 def _call_once(model: str, system_prompt: str, user_prompt: str) -> dict:
-    """
-    Calls a single model with retry-with-backoff on 429 (rate limit).
-    Raises DeepSeekUnavailableError on any unrecoverable failure for
-    THIS model — the caller (call_json) decides whether to fall back
-    to a different model or give up entirely.
-    """
-    last_error: Exception | None = None
-
+    last_error = None
     for attempt in range(MAX_RATE_LIMIT_RETRIES + 1):
         try:
             response = _client.chat.completions.create(
                 model=model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
-                ],
-                response_format={"type": "json_object"},
-                temperature=0.1,
+                messages=[{"role": "system", "content": system_prompt},
+                          {"role": "user", "content": user_prompt}],
+                response_format={"type": "json_object"}, temperature=0.1,
             )
-
-            # Defensive check: some providers return a 200 with an empty
-            # `choices` when their upstream is overloaded (502-in-a-200),
-            # instead of raising a normal HTTP error.
             if not response.choices:
-                logger.error("Model %s returned no choices — raw response: %s", model, response)
-                raise DeepSeekUnavailableError(f"Empty response from {model} (no choices)")
-
+                raise DeepSeekUnavailableError(f"Empty response from {model} (no_choices)")
             content = response.choices[0].message.content
             if not content:
-                logger.error("Model %s returned empty message content.", model)
-                raise DeepSeekUnavailableError(f"Empty message content from {model}")
-
+                raise DeepSeekUnavailableError(f"Empty content from {model}")
             return json.loads(content)
 
         except RateLimitError as exc:
-            last_error = exc
+            last_error = ("rate_limited", exc)
             if attempt < MAX_RATE_LIMIT_RETRIES:
                 delay = min(BASE_BACKOFF_SECONDS * (2 ** attempt), MAX_BACKOFF_SECONDS)
-                logger.warning(
-                    "Model %s rate-limited (attempt %d/%d), retrying in %.1fs",
-                    model, attempt + 1, MAX_RATE_LIMIT_RETRIES, delay,
-                )
+                logger.warning("Model %s rate-limited (attempt %d/%d), retrying in %.1fs",
+                                model, attempt + 1, MAX_RATE_LIMIT_RETRIES, delay)
                 time.sleep(delay)
                 continue
             logger.error("Model %s still rate-limited after %d retries", model, MAX_RATE_LIMIT_RETRIES)
 
-        except (APIError, APITimeoutError) as exc:
+        except APITimeoutError as exc:
+            last_error = ("timeout", exc)
+            logger.error("Model %s timed out: %s", model, exc)
+            raise DeepSeekUnavailableError(str(exc)) from exc
+
+        except APIError as exc:
+            last_error = ("other_error", exc)
             logger.error("Model %s call failed: %s", model, exc)
             raise DeepSeekUnavailableError(str(exc)) from exc
 
         except (json.JSONDecodeError, IndexError, AttributeError, TypeError) as exc:
+            last_error = ("malformed", exc)
             logger.error("Model %s returned malformed response: %s", model, exc)
             raise DeepSeekUnavailableError("Malformed LLM response") from exc
 
-    raise DeepSeekUnavailableError(str(last_error))
+    outcome, err = last_error
+    raise DeepSeekUnavailableError(str(err))
 
 
-def call_json(system_prompt: str, user_prompt: str) -> dict:
+def call_json(system_prompt: str, user_prompt: str, endpoint: str = "unknown") -> dict:
     """
-    Tries the primary model first. If it fails for ANY reason (rate limit
-    exhausted, provider 502, timeout, malformed response), automatically
-    tries the backup model before giving up. Only raises
-    DeepSeekUnavailableError if BOTH models fail.
+    Tries the primary model, then the fallback if configured. Records
+    ONE metrics event for the whole call (endpoint, which model actually
+    served it, outcome, total latency, and whether fallback was used) —
+    this is exactly what the admin health page reads.
     """
+    start = time.time()
+    used_fallback = False
+    final_model = settings.deepseek_model
+    outcome = "other_error"
+
     try:
-        return _call_once(settings.deepseek_model, system_prompt, user_prompt)
-    except DeepSeekUnavailableError as primary_error:
-        if not settings.deepseek_fallback_model:
-            raise  # no backup configured — behave exactly as before
+        result = _call_once(settings.deepseek_model, system_prompt, user_prompt)
+        outcome = "success"
+        return result
 
-        logger.warning(
-            "Primary model (%s) failed: %s — trying fallback model (%s)",
-            settings.deepseek_model, primary_error, settings.deepseek_fallback_model,
-        )
+    except DeepSeekUnavailableError as primary_error:
+        primary_outcome = ("rate_limited" if "rate" in str(primary_error).lower()
+                            else "timeout" if "time" in str(primary_error).lower()
+                            else "no_choices" if "no_choices" in str(primary_error).lower()
+                            else "other_error")
+        if not settings.deepseek_fallback_model:
+            outcome = primary_outcome
+            raise
+
+        logger.warning("Primary model (%s) failed: %s — trying fallback (%s)",
+                        settings.deepseek_model, primary_error, settings.deepseek_fallback_model)
+        used_fallback = True
+        final_model = settings.deepseek_fallback_model
         try:
-            return _call_once(settings.deepseek_fallback_model, system_prompt, user_prompt)
+            result = _call_once(settings.deepseek_fallback_model, system_prompt, user_prompt)
+            outcome = "success"
+            return result
         except DeepSeekUnavailableError as fallback_error:
-            logger.error(
-                "Fallback model (%s) also failed: %s",
-                settings.deepseek_fallback_model, fallback_error,
-            )
+            outcome = "other_error"
             raise DeepSeekUnavailableError(
                 f"Both primary and fallback models failed. "
                 f"Primary: {primary_error} | Fallback: {fallback_error}"
             ) from fallback_error
+
+    finally:
+        record_event(
+            endpoint=endpoint,
+            model=final_model,
+            outcome=outcome,
+            latency_seconds=time.time() - start,
+            extra={"used_fallback": used_fallback},
+        )

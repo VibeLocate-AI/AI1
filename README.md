@@ -52,7 +52,7 @@ pytest app/tests/ -v
 الاختبارات كلها **mocked** — يعني ما بتحتاج مفتاح API حقيقي ولا اتصال
 إنترنت عشان تتأكد إن منطق الـ parsing والـ aggregation صحيح.
 
-## ليش القرارات المعمارية هيك؟ (مرتبطة بالـ SRS)
+## ليش القرارات المعمارية هيك؟ 
 
 - **DeepSeek بس، مش أي نموذج تاني**: محدد بالـ SRS (Limitations 1.4) —
   "No self-hosted AI models... delegated to DeepSeek API".
