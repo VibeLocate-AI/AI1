@@ -61,3 +61,12 @@
 {"timestamp": "2026-10-04T10:07:42.300152+00:00", "endpoint": "unknown", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "outcome": "success", "latency_seconds": 7.81, "used_fallback": false}
 {"timestamp": "2026-10-04T10:31:28.159833+00:00", "endpoint": "unknown", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "outcome": "success", "latency_seconds": 8.954, "used_fallback": false}
 {"timestamp": "2026-10-05T10:59:06.021240+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "success", "latency_seconds": 12.463, "used_fallback": true}
+{"timestamp": "2026-10-05T11:38:31.911613+00:00", "endpoint": "unknown", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "outcome": "success", "latency_seconds": 9.021, "used_fallback": false}
+{"timestamp": "2026-10-06T10:18:43.093426+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "other_error", "latency_seconds": 126.982, "used_fallback": true}
+{"timestamp": "2026-10-06T10:24:09.925828+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "other_error", "latency_seconds": 119.946, "used_fallback": true}
+{"timestamp": "2026-10-06T10:26:56.171762+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "other_error", "latency_seconds": 120.237, "used_fallback": true}
+{"timestamp": "2026-10-06T10:29:07.563692+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "other_error", "latency_seconds": 119.923, "used_fallback": true}
+{"timestamp": "2026-10-06T10:36:36.894489+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "other_error", "latency_seconds": 120.473, "used_fallback": true}
+{"timestamp": "2026-10-08T07:25:42.497792+00:00", "endpoint": "unknown", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "outcome": "success", "latency_seconds": 14.19, "used_fallback": false}
+{"timestamp": "2026-10-08T08:21:23.586157+00:00", "endpoint": "unknown", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "outcome": "success", "latency_seconds": 6.148, "used_fallback": false}
+{"timestamp": "2026-10-08T08:34:04.520728+00:00", "endpoint": "unknown", "model": "google/gemma-4-31b-it:free", "outcome": "success", "latency_seconds": 21.795, "used_fallback": true}
